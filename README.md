@@ -61,8 +61,9 @@ A full-stack application that allows users to upload PDF or Excel files and chat
 6. Edit the `.env` file with your API keys:
    - `OPENAI_API_KEY`: Your OpenAI API key
    - `PINECONE_API_KEY`: Your Pinecone API key
-   - `PINECONE_ENVIRONMENT`: Your Pinecone environment
-   - `PINECONE_INDEX`: Name of your Pinecone index
+   - `PINECONE_INDEX_CLOUD`: Your Pinecone index cloud
+   - `PINECONE_INDEX_REGION`: Your Pinecone index region
+   - `PINECONE_INDEX_NAME`: Name of your Pinecone index
    - `OPENAI_CHAT_MODEL`: OpenAI model to use (e.g., "gpt-4o")
 
 7. Run the backend server:
@@ -84,10 +85,10 @@ A full-stack application that allows users to upload PDF or Excel files and chat
 
 3. Create a local environment file:
    ```bash
-   cp .env.example .env.local
+   cp .env.example .env
    ```
 
-4. Update the `.env.local` with:
+4. Update the `.env` with:
    ```
    NEXT_PUBLIC_API_BASE_URL=http://localhost:8000
    ```
