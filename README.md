@@ -34,7 +34,7 @@ A full-stack application that allows users to upload PDF or Excel files and chat
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd sixpoint-captial-assessment
+   cd SixPoint-Capital---Assessment
    ```
 
 2. Navigate to the backend directory:
